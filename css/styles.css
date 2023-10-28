@@ -223,7 +223,37 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
 .button-text:hover, .button-text:focus {
     background: #404BBF;
 }
-
+/* .form-title {
+color: var(--NAVY-BLUE, #2E2F42);
+text-align: center;
+margin: 72px 24px 16px 24px;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 1.5; 
+letter-spacing: 0.02em;
+}
+.order-form {
+   display: flex;
+   flex-direction: column;
+   margin: 0 auto;
+    width: 408px;
+height: 584px;
+justify-content: center;
+align-items: center;
+flex-shrink: 0;
+border-radius: 4px;
+background: var(--DAIRY, #FCFCFC);
+}
+.inputs {
+display: flex;
+width: 360px;
+flex-direction: column;
+align-items: flex-start;
+gap: 8px;
+border-radius: 4px;
+}  */
 /* FEATURES SECTION */
 
 .visually-hidden {
