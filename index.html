@@ -46,7 +46,7 @@
       <div class="container">
         <h1 class="page-title">Effective Solutions for Your Business</h1>
         <button type="button" class="button-text">Order Service</button>
-        <form class="order-form">
+        <!-- <form class="order-form">
           <p class="form-title">Leave your contacts and we will call you back</p>
           <div class="inputs">
             <Label class="form-label">
@@ -71,7 +71,7 @@
             I accept the terms and conditions of the Privacy Policy
           </Label>
           <button type="submit" class="button-text">Send</button>
-        </form>
+        </form> -->
       </div>
       </section>
       <!-- FEATURES SECTION-->
@@ -397,6 +397,66 @@
         </div>
       </div>
       </footer>
+        <!-- FOOTER  -->
+    
+        <!-- FORM -->
+        <div class="backdrop is-open">
+          <div class="modal">
+            <button class="modal-close-btn"
+            type="button"
+            aria-label="modal close button">
+              <svg class="modal-close-btn-icon" width="8" height="8">
+                <use href="./images/icons.svg#icon-close"></use>
+              </svg>
+            </button>
+            <p class="form-description">Leave your contacts and we will call you back</p>
+            <form class="review-form">
+              <div class="form-field-wrapper">
+                <label class="form-field-label" for="user-name">
+                  Name
+                </label>
+                <input 
+                class="form-field" 
+                type="text" 
+                name="user_name" 
+                id="user-name" 
+                required 
+                pattern="[a-zA-Zа-яА-ЯіІїЇєЄґҐйЙʼ]+"/>
+              </div>
+              <div class="form-field-wrapper">
+                <label class="form-field-label" for="user-phone">
+                  Phone
+                </label>
+                <input 
+                class="form-field"  
+                type="tel"
+                name="user_phone" 
+                id="user-phone"
+                required
+                pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
+                title="xxx-xxx-xx-xx"/>
+              </div>
+              <div class="form-field-wrapper">
+                <label class="form-field-label" for="user-male" >Email</label>
+                <input 
+                class="form-field" 
+                type="email"
+                name="=user_male"
+                id="user-male"
+                required/>
+              </div>
+              <div class="form-field-wrapper">
+                <label for="" class="form-field-label">Comment</label>
+                <textarea 
+                class="field-for-comment" 
+                type="text"
+                name="user_comment"
+                id="user-comment"
+                placeholder="Text input"></textarea>
+              </div>
+            </form>
+          </div>
+        </div>
     </body>
   </html>
   
