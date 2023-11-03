@@ -364,8 +364,10 @@
         </div>
         <div class="footer-third-block">
           <p  class="footer-titles">Subscribe</p>
-          <form>
-            <input class="footer-input" type="email" placeholder="E-mail">
+          <form class="footer-form">
+            <label class="footer-form-label">
+              <input class="footer-input" type="email" placeholder="E-mail" name="user_male">>
+            </label>
             <button class="footer-button button-text" type="submit">
               Subscribe
               <svg class="subscripe-icon" width="24" height="24">
@@ -379,7 +381,7 @@
         <!-- FOOTER  -->
     
         <!-- FORM -->
-        <div class="backdrop is-open">
+        <!-- <div class="backdrop is-open"> -->
           <div class="modal">
             <button class="modal-close-btn"
             type="button"
@@ -440,10 +442,9 @@
                 </div>
               </div>
               <div class="form-field-wrapper">
-                <label for="" class="form-field-label">Comment</label>
+                <label for="user-comment" class="form-field-label">Comment</label>
                 <textarea 
                 class="field-for-comment" 
-                type="text"
                 name="user_comment"
                 id="user-comment"
                 placeholder="Text input"></textarea>
